@@ -1,1 +1,1 @@
-# A personal site for Andy Rutkowski
+A personal site for Andy Rutkowski
