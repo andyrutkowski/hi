@@ -95,6 +95,19 @@ authoricon: heart
 # Footer `powered-by` and `theme-info` copyright
 copyright: true
 
+# --MAP SETTINGS--
+
+map-tileset: 'https://api.mapbox.com/styles/v1/andy-rutkowski/cj5ij2u2056372srpho3je4dl.html?fresh=true&title=true&access_token=pk.eyJ1IjoiYW5keS1ydXRrb3dza2kiLCJhIjoiWDJRMFVUWSJ9.iHl6Cf0M79wmHQlfP6Bk8Q#10.0/34.054400/-118.243900/0'
+map-credits: '<a target="_blank" href="https://github.com/andyrutkowski">AR</a> | Tiles: Mapbox'
+minZoom: 0
+maxZoom: 20
+setView: '[48.856614, 2.352222], 12'  # set map center point and zoom. See http://leafletjs.com/reference-1.2.0.html for more info.
+marker-grouping: grouped # sets the default clustering action. Options: grouped, single
+
+# Truncates map marker popup on small screens to only display post title
+window-height: 600
+window-width: 550
+
 # ---------------------------------------------------------------
 # SEO Settings
 # ---------------------------------------------------------------
@@ -359,6 +372,7 @@ highlight_theme: normal
 # ---------------------------------------------------------------
 # Third Party Services Settings
 # ---------------------------------------------------------------
+
 
 # MathJax Support
 mathjax:
